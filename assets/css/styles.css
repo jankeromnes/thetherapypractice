@@ -64,9 +64,10 @@ a.dropdown-item{
 
 }
 .welcome-speech h1 {
-    padding: 20px 20px
-    text-align: center;
+    padding: 20px 20px;
+    text-align:center;
     padding-bottom: 20px;
+    font-family: 'exo',sans-serif;
 }
 
 .welcome-speech p{
@@ -85,18 +86,93 @@ a.dropdown-item{
 }
 
  img.maya{
-    height:106px;
-    width: 160px;
+    height:265px;
+    width: 400px;
     
 }
 
+.work-history{
 
 
+}
+
+.history-heading{
 
 
+}
+
+.history-items{
 
 
+}
 
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: solid 1px;
+
+}
+
+.timeline-item p{
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item::before{
+content: attr(data-dates);
+position: absolute;
+left: 2.3em;
+top: 4em;
+display: block;
+font-family: 'exo',sans-serif;
+font-weight: 500;
+font-size: 12px;
+padding: 0;
+}
+
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    position: absolute;
+left: -6px;
+top: 2.4em;
+display: block;
+content: '';
+background: #fafafa;
+
+}
+
+
+/* ---------------------issues-------------------------------------- */
+/* ---------------------carousel-------------------------------------- */
+img .divorce{
+    height: 
+
+}
+
+.carousel-inner{
+
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 40px;
+    color: #3e4852;
+    background-color: #faf;
+    height: 25px;
+    right: 15%; 
+    left: 15%;
+    z-index: 10;
+     text-align: center;
+    
+}
+
+   
+
+.carousel-caption p{
+     color: #3e4852;
+}
 /* ---------------------buttons-------------------------------------- */
 
 .btn-group{
@@ -121,10 +197,14 @@ height:120px;
 h1,h2,h3,h4{
     margin: 0;}
 
-
+.informative{
+    font-family: 'exo',sans-serif;
+font-weight: 500;
+font-size: 12px;
+}
 .uppercase{
     text-transform: uppercase;
-
+    
 }
 
 .general-sub{

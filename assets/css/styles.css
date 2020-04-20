@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 &display=swap');
+
+body{
+    background-color:#cb5b1ccc;
+    color: #fafafa;
+}
+
+/* ---------------------header-------------------------------------- */
+
+
+
+/* ---------------------nav bar-------------------------------------- */
+
+nav #navbar.container.navbar.navbar-expand-lg.navbar-light{
+    background-color: #cb5b1ccc;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+}
+
+#navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#navbarNavDropdown{
+    
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-family: 'exo',sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+
+.nav-item .dropdown-menu{
+    padding: 5px 5px;
+}
+
+a.nav-link{
+    color:#fafafa;
+}
+
+a.dropdown-item{
+    padding: 0;
+    text-align: center;
+    color: #cb5b1ccc;
+}
+#navbarNavDropdown{
+  color:#fafafa;  
+}
+/* ---------------------welcome speech -------------------------------------- */
+
+.welcome-speech{
+    padding-top: 100px;
+    padding-bottom: 10px;
+   
+   
+
+}
+.welcome-speech h1 {
+    padding: 20px 20px
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.welcome-speech p{
+    padding: 20px 20px;
+    font-family: 'roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+/* ---------------------about me -------------------------------------- */
+
+.personal-info{
+    display: inline;
+
+}
+
+ img.maya{
+    height:106px;
+    width: 160px;
+    
+}
+
+
+
+
+
+
+
+
+/* ---------------------buttons-------------------------------------- */
+
+.btn-group{
+    display: inline;
+}
+
+.btn-danger{
+    background-color: #fafafa;
+    color: #fafafa;
+    padding: 0;
+    border-color: black;
+}
+/* ---------------------hover.css-------------------------------------- */
+
+
+.hvr-back-pulse:after{
+background-color: black;
+height:120px;
+}
+/* ---------------------special margins, paddings-------------------------------------- */
+
+h1,h2,h3,h4{
+    margin: 0;}
+
+
+.uppercase{
+    text-transform: uppercase;
+
+}
+
+.general-sub{
+     font-family: "Exo",sans-serif;
+     font-weight: 300;
+     color: #fafafa;
+    
+     
+
+}
+
+.inline-block{
+display: inline-block;
+}
+
+.row-table{
+    display: table;
+
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0,30px,30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "exo", sans-serif;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+/* ---------------------footer-------------------------------------- */
+
+footer{
+
+    color:#fafafa;
+    min-height: 150px;
+     border-bottom-color: #fafafa;
+    border-bottom: solid 1px;
+    border-top: #fafafa;
+    border-top: solid 1px;
+
+}
+
+footer h5{
+    padding-top: 10px;
+}
+
+footer p{
+    font-family: 'roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer i{
+ font-size: 18px;
+color: #fafafa;
+display: inline;
+text-align: center;
+padding-left: 5px;
+transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;   
+}
+
+.T-C i{
+
+
+}
+
+.fa-download{
+    padding-top: 0;
+}
+
+.ukcp-logo{
+    height: 100px;
+    width: 200px;
+    
+
+}
+
+.prices-pdf{
+    padding-bottom: 20px;
+    color: #fafafa;
+    background-color: transparent;
+
+}
+
+
+#footer-deets{
+    padding: 20px;
+    padding-top: 40px;
+}
